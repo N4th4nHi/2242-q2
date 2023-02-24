@@ -1,4 +1,4 @@
-//go routine
+// go routine
 package main
 
 import (
@@ -7,7 +7,7 @@ import (
 )
 
 func myFunc() {
-	for i := 1; i <= 5; i++ {
+	for i := 1; i <= 3; i++ {
 		fmt.Println("First come:", i)
 		time.Sleep(time.Second * 3)
 	}
